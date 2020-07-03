@@ -30,14 +30,14 @@ The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU i
 
   e.	instruction set: basic operation instruction (60%) 
  
-    | ALU action   | Name             | ALU control input |
-    |     :---:    |     :---:        |     :---:         |
-    | And          | And              | 0000              |
-    | Or           | Or               | 0001              |
-    | Add          | Addition         | 0010              |
-    | Sub          | Subtract         | 0110              |
-    | Nor          | Nor              | 1100              |
-    | Slt          | Set less than    | 0111              |
+   | ALU action   |     Name         | ALU control input |
+   |    :---:     |     :---:        |     :---:         |
+   | And          | And              | 0000              |
+   | Or           | Or               | 0001              |
+   | Add          | Addition         | 0010              |
+   | Sub          | Subtract         | 0110              |
+   | Nor          | Nor              | 1100              |
+   | Slt          | Set less than    | 0111              |
 
     zcv three control signal : zero、carry out、overflow (40%) zero must be set when the result is 0. 
     cout must be set when carry out. 
