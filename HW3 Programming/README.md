@@ -39,7 +39,7 @@ The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU i
    | Nor          | Nor              | 1100              |
    | Slt          | Set less than    | 0111              |
 
-   zcv three control signal : zero、carry out、overflow (40%) zero must be set when the result is 0. 
-   cout must be set when carry out. 
-   overflow must be set when overflow. 
+   - zcv three control signal : zero、carry out、overflow (40%) zero must be set when the result is 0.
+   - cout must be set when carry out. 
+   - overflow must be set when overflow. 
 
