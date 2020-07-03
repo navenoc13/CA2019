@@ -4,11 +4,11 @@
 The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU is the basic computing component of a CPU. Its operations include AND, OR, addition, subtraction, etc. This homework will help you understand the CPU architecture.  The function of testbench is to read input data automatically and output erroneous data.
 
 ## HW Requirement
-  a.	Please use Xilinx ISE or ModelSim as your HDL simulator. (ModelSim is preferred, we will test your result 
+  -	  Please use Xilinx ISE or ModelSim as your HDL simulator. (ModelSim is preferred, we will test your result 
       on ModelSim) 
-  b.	Please zip the archive (not including testcase and testbench.v) and name it as "ID.zip" (e.g., R08922XXX.zip). 
-  c.	Plagiarism will get 0 point 
-  d.	The names of top module and IO ports must be named as follows: 
+  - 	Please zip the archive (not including testcase and testbench.v) and name it as "ID.zip" (e.g., R08922XXX.zip). 
+  - 	Plagiarism will get 0 point 
+  - 	The names of top module and IO ports must be named as follows: 
 
     Top module: alu.v  
     
@@ -28,7 +28,7 @@ The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU i
  
     For example: The file "alu.v" only contains the module "alu". 
 
-  e.	instruction set: basic operation instruction (60%) 
+  - 	instruction set: basic operation instruction (60%) 
  
    | ALU action   |     Name         | ALU control input |
    |    :---:     |     :---:        |     :---:         |
