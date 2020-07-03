@@ -17,7 +17,8 @@ Utilizing the ALU in hw3 to implement a 32-bit single cycle CPU supporting RV64I
   - All x1 - x31 registers are assumed to be general-purpose registers. (The register x0 is hardwired to the constant 0) 
   - Your CPU should read machine code rather than assembly code. 
   - We provide two testcases for testing. If you want to change the testcase, please modify the 38-th line of InstructionMemory.v
-         		    				$readmemb("test/test1.txt", Instr_Mem); //Read instruction from "test1.txt"
+  
+		$readmemb("test/test1.txt", Instr_Mem); //Read instruction from "test1.txt"
       - beq rs1, rs2, offset if rs1 == rs2, then PC = PC + (signed_extend(offset) << 1) 
       - jal rd, offset 
         PC = PC + (signed_extend(offset) << 1), rd = PC + 4 
