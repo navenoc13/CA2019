@@ -9,9 +9,9 @@ The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU i
   - Plagiarism will get 0 point 
   - The names of top module and IO ports must be named as follows: 
 
-      Top module: alu.v  
+         Top module: alu.v  
     
-      module alu(  
+         module alu(  
                 rst_n, 	// negative reset (input) 
                 src1, 	// 32 bits source 1 (input) 
                 src2, 	// 32 bits source2 (input) 
@@ -22,10 +22,10 @@ The goal of this LAB is to implement a 32-bit ALU (Arithmetic Logic Unit). ALU i
                 overflow 	// 1 bit overflow(output)
               ); 
  
-      ALU starts to work when the signal rst_n is 1, and then catches the data from src1 and src2. 
-      In order to have a good coding style, please obey the rules below: . One module in one file.  . Module name and file name must be the same. 
+          ALU starts to work when the signal rst_n is 1, and then catches the data from src1 and src2. 
+          In order to have a good coding style, please obey the rules below: . One module in one file.  . Module name and file name must be the same. 
  
-      For example: The file "alu.v" only contains the module "alu". 
+          For example: The file "alu.v" only contains the module "alu". 
 
   - instruction set: basic operation instruction (60%) 
  
